@@ -1,0 +1,10 @@
+D:\projectBrotherhood\Temp\bin\Release\Assembly-CSharp.dll
+D:\projectBrotherhood\Temp\bin\Release\Assembly-CSharp.pdb
+D:\projectBrotherhood\Temp\bin\Release\UnityEditor.dll
+D:\projectBrotherhood\Temp\bin\Release\UnityEngine.dll
+D:\projectBrotherhood\Temp\bin\Release\Mono.Cecil.dll
+D:\projectBrotherhood\Temp\bin\Release\nunit.framework.dll
+D:\projectBrotherhood\Temp\bin\Release\ICSharpCode.NRefactory.dll
+D:\projectBrotherhood\obj\Release\ResolveAssemblyReference.cache
+D:\projectBrotherhood\obj\Release\Assembly-CSharp.dll
+D:\projectBrotherhood\obj\Release\Assembly-CSharp.pdb

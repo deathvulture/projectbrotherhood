@@ -1,0 +1,13 @@
+D:\projectBrotherhood\Temp\bin\Debug\Assembly-CSharp.dll
+D:\projectBrotherhood\Temp\bin\Debug\Assembly-CSharp.pdb
+D:\projectBrotherhood\Temp\bin\Debug\UnityEditor.dll
+D:\projectBrotherhood\Temp\bin\Debug\UnityEngine.dll
+D:\projectBrotherhood\Temp\bin\Debug\Mono.Cecil.dll
+D:\projectBrotherhood\Temp\bin\Debug\nunit.framework.dll
+D:\projectBrotherhood\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+D:\projectBrotherhood\obj\Debug\ResolveAssemblyReference.cache
+D:\projectBrotherhood\obj\Debug\Assembly-CSharp.dll
+D:\projectBrotherhood\obj\Debug\Assembly-CSharp.pdb
+D:\projectBrotherhood\Temp\bin\Debug\HOTween.dll
+D:\projectBrotherhood\Temp\bin\Debug\HOTween.pdb
+D:\projectBrotherhood\Temp\bin\Debug\HOTween.xml

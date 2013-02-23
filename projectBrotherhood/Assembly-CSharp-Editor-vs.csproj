@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{0696ED2A-F3E3-178D-09D7-474AAD98F233}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_WEBPLAYER;WEBPLUG;ENABLE_MICROPHONE;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;ENABLE_AUDIO_FMOD;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PHYSICS;ENABLE_TERRAIN;ENABLE_CACHING;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_CLOTH;ENABLE_MOVIES;ENABLE_AUDIO;ENABLE_WWW;ENABLE_SHADOWS;ENABLE_DUCK_TYPING;UNITY_4_0_1;UNITY_4_0;ENABLE_PROFILER;UNITY_EDITOR</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\hottween\Holoville\HOTween Extensions\HOTweenManager\Editor\Core\HOTweenEditorGUI.cs" />
+     <Compile Include="Assets\Scripts\hottween\Holoville\HOTween Extensions\HOTweenManager\Editor\Core\HOTweenEditorVars.cs" />
+     <Compile Include="Assets\Scripts\hottween\Holoville\HOTween Extensions\HOTweenManager\Editor\Core\HOTweenPanelMode.cs" />
+     <Compile Include="Assets\Scripts\hottween\Holoville\HOTween Extensions\HOTweenManager\Editor\Core\IHOTweenPanel.cs" />
+     <Compile Include="Assets\Scripts\hottween\Holoville\HOTween Extensions\HOTweenManager\Editor\HOTweenComponentInspector.cs" />
+     <Compile Include="Assets\Scripts\hottween\Holoville\HOTween Extensions\HOTweenManager\Editor\HOTweenEditor.cs" />
+     <Compile Include="Assets\Scripts\hottween\Holoville\HOTween Extensions\HOTweenManager\Editor\HOTweenManagerInspector.cs" />
+     <None Include="Assets\Scripts\hottween\HOTween_License.txt" />
+     <None Include="Assets\Scripts\hottween\Holoville\HOUnityEditor\Editor\HOEditorUtils.xml" />
+     <None Include="Assets\Scripts\hottween\Holoville\HOUnityEditor\Editor\HOEditorGUIFramework.xml" />
+ <Reference Include="HOTween">
+ <HintPath>Assets\Scripts\hottween\HOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="HOEditorGUIFramework">
+ <HintPath>Assets\Scripts\hottween\Holoville\HOUnityEditor\Editor\HOEditorGUIFramework.dll</HintPath>
+ </Reference>
+ <Reference Include="HOEditorUtils">
+ <HintPath>Assets\Scripts\hottween\Holoville\HOUnityEditor\Editor\HOEditorUtils.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-vs.csproj">
+      <Project>{6EB18F2F-9A0E-4973-5FBF-861E493076A4}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
