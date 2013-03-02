@@ -114,7 +114,7 @@ public class HOTweenManager : ABSHOTweenEditorElement
                             onCompleteParm = p_twData.onCompleteParmVector4;
                             break;
                     }
-                    parms.OnComplete(p_twData.onCompleteTarget, p_twData.onCompleteMethodName, onCompleteParm);
+                   // parms.OnComplete(p_twData.onCompleteTarget, p_twData.onCompleteMethodName, onCompleteParm);
                     break;
             }
         }
